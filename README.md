@@ -30,6 +30,8 @@ Excluding the icon, this application **does not include or require copyrighted o
 
 ![https://raw.githubusercontent.com/jglim/UnlockECU/main/docs/resources/demo.mp4](https://raw.githubusercontent.com/jglim/UnlockECU/main/docs/resources/demo-thumb.png)
 
+Edit: sorry, the thumbnail link does not work properly: please [click here instead](https://raw.githubusercontent.com/jglim/UnlockECU/main/docs/resources/demo.mp4).
+
 ## Adding definitions
 
 Definitions specify a seed-key function for a specific ECU and security level. The input seed's size, output key's length as well as the security provider must be specified. Some security providers require specific parameters to operate. 
