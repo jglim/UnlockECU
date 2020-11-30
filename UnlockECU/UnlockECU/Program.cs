@@ -17,11 +17,10 @@ namespace UnlockECU
             List<Definition> definitions = System.Text.Json.JsonSerializer.Deserialize<List<Definition>>(definitionJson);
             List<SecurityProvider> providers = SecurityProvider.GetSecurityProviders();
 
-            ReverseKey(BitUtility.BytesFromHex("BA00D268 972D452D"), BitUtility.BytesFromHex("BE515D46")); // reverse key 0x3F9C71A5 (CRD3S2SEC9A)
-
             Console.ReadKey();
         }
 
+        /*
         static void ReverseKey(byte[] inSeed, byte[] outKeyBytes) 
         {
             long kA = 1103515245L;
@@ -66,5 +65,8 @@ namespace UnlockECU
             }
             return result;
         }
+        */
+
     }
+
 }

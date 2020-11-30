@@ -31,7 +31,34 @@ namespace UnlockECUTests
             QuickTest(definitions.Find(x => (x.EcuName == "CR6NFZ") && (x.AccessLevel == 1) && (x.Provider == "PowertrainSecurityAlgo2")), providers);
             QuickTest(definitions.Find(x => (x.EcuName == "DCDC223") && (x.AccessLevel == 17) && (x.Provider == "EsLibEd25519")), providers);
 
+            VWTest(definitions, providers);
+
             Assert.Pass();
+        }
+
+        static void VWTest(List<Definition> definitions, List<SecurityProvider> providers)
+        {
+            SecurityProvider vwProvider = providers.Find(x => x.GetProviderName() == "VolkswagenSA2");
+            Definition vw1 = definitions.Find(x => x.EcuName == "VW_SA2_TEST1");
+            Definition vw2 = definitions.Find(x => x.EcuName == "VW_SA2_TEST2");
+            byte[] vwKey = new byte[4];
+            byte[] expectedOutput;
+
+            expectedOutput = BitUtility.BytesFromHex("3C7876D8");
+            vwProvider.GenerateKey(BitUtility.BytesFromHex("A04EB1ED"), vwKey, 1, vw1.Parameters); // 0x3C7876D8
+
+            if (!vwKey.SequenceEqual(expectedOutput)) 
+            {
+                Assert.Fail();
+            }
+
+            expectedOutput = BitUtility.BytesFromHex("6A37F02E");
+            vwProvider.GenerateKey(BitUtility.BytesFromHex("1A1B1C1D"), vwKey, 1, vw2.Parameters); // 0x6a37f02e
+
+            if (!vwKey.SequenceEqual(expectedOutput))
+            {
+                Assert.Fail();
+            }
         }
 
         static string GetLibraryFolder() 
