@@ -1,9 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-	  <TargetFramework>net5.0-windows</TargetFramework>
-    <UseWindowsForms>true</UseWindowsForms>
+    <TargetFramework>net5.0</TargetFramework>
     <ApplicationIcon>unlockecu-256.ico</ApplicationIcon>
   </PropertyGroup>
 

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleUnlockECU": {
+      "commandName": "Project",
+      "commandLineArgs": "-n CRD3NFZ -l 11 -s 11223344"
+    }
+  }
+}

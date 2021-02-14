@@ -18,8 +18,17 @@ namespace VisualUnlockECU
         List<Definition> Definitions;
         public MainForm()
         {
-            string definitionJson = File.ReadAllText("db.json");
-            Definitions = System.Text.Json.JsonSerializer.Deserialize<List<Definition>>(definitionJson);
+            string dbFile = "db.json";
+            if (File.Exists(dbFile))
+            {
+                string definitionJson = File.ReadAllText(dbFile);
+                Definitions = System.Text.Json.JsonSerializer.Deserialize<List<Definition>>(definitionJson);
+            }
+            else 
+            {
+                Definitions = new List<Definition>();
+                MessageBox.Show("No definitions loaded. Check if the file 'db.json' is accessible in the same folder as VisualUnlockECU.");
+            }
 
             InitializeComponent();
         }

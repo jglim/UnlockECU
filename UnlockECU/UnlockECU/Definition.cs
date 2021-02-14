@@ -9,6 +9,7 @@ namespace UnlockECU
     public class Definition
     {
         public string EcuName { get; set; }
+        public List<string> Aliases { get; set; }
         public int AccessLevel { get; set; }
         public int SeedLength { get; set; }
         public int KeyLength { get; set; }
@@ -33,6 +34,24 @@ namespace UnlockECU
             return sb.ToString();
             */
         }
-        
+        public static Definition FindDefinition(List<Definition> definitions, string ecuName, int accessLevel) 
+        {
+            foreach (Definition d in definitions) 
+            {
+                if (accessLevel != d.AccessLevel) 
+                {
+                    continue;
+                }
+                if (ecuName != d.EcuName.ToUpper())
+                {
+                    if (!d.Aliases.Contains(ecuName))
+                    {
+                        continue;
+                    }
+                }
+                return d;
+            }
+            return null;
+        }
     }
 }
