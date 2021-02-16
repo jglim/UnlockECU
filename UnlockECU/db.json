@@ -8376,6 +8376,7 @@
   },
   {
     "EcuName": "VGSNAG3",
+    "Aliases": [],
     "AccessLevel": 17,
     "SeedLength": 8,
     "KeyLength": 4,
