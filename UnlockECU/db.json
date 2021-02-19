@@ -970,29 +970,13 @@
     ]
   },
   {
-    "EcuName": "CPC_NG9A",
+    "EcuName": "CPC_NG",
     "Aliases": [],
     "AccessLevel": 9,
     "SeedLength": 8,
     "KeyLength": 4,
     "Provider": "DaimlerStandardSecurityAlgo",
     "Origin": "CPC_NG9A_14_31_09_20181219031236",
-    "Parameters": [
-      {
-        "Key": "K",
-        "Value": "EF5E7238",
-        "DataType": "ByteArray"
-      }
-    ]
-  },
-  {
-    "EcuName": "CPC_NG9A",
-    "Aliases": [],
-    "AccessLevel": 9,
-    "SeedLength": 8,
-    "KeyLength": 4,
-    "Provider": "DaimlerStandardSecurityAlgo",
-    "Origin": "CPC_NG9A_14_31_09_20183812113859",
     "Parameters": [
       {
         "Key": "K",
@@ -8392,6 +8376,7 @@
   },
   {
     "EcuName": "VGSNAG3",
+    "Aliases": [],
     "AccessLevel": 9,
     "SeedLength": 8,
     "KeyLength": 4,
@@ -8407,6 +8392,7 @@
   },
   {
     "EcuName": "VGS4NAG2",
+    "Aliases": [],
     "AccessLevel": 9,
     "SeedLength": 8,
     "KeyLength": 4,
@@ -8422,21 +8408,23 @@
   },
   {
     "EcuName": "VGS4NAG2",
+    "Aliases": [],
     "AccessLevel": 5,
     "SeedLength": 8,
     "KeyLength": 4,
     "Provider": "DaimlerStandardSecurityAlgo",
-    "Origin": "VGS4NAG2_vgs4nag2_1_12_06_01",
+    "Origin": "VGS4NAG2_vgs4nag2_2_12_06_01",
     "Parameters": [
       {
         "Key": "K",
-        "Value": "335800",
+        "Value": "33582589",
         "DataType": "ByteArray"
       }
     ]
   },
   {
     "EcuName": "VGS4NAG2",
+    "Aliases": [],
     "AccessLevel": 11,
     "SeedLength": 4,
     "KeyLength": 4,
