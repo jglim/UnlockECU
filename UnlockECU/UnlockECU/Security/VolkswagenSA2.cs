@@ -180,7 +180,6 @@ namespace UnlockECU
                 // Console.WriteLine($"IP: 0x{InstructionPointer:X} Reg: 0x{Register:X8} CF: 0x{CarryFlag:X8} Op: {instructionSet[InstructionTape[InstructionPointer]].Method.Name} ");
                 instructionSet[InstructionTape[InstructionPointer]]();
             }
-            Console.WriteLine($"Exec done, reg = 0x{Register:X8}");
             return Register;
         }
     }

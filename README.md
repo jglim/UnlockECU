@@ -6,6 +6,8 @@ Free, open-source ECU seed-key unlocking tool.
 
 ## Getting started
 
+[Try it out here in your browser](https://unlockecu.sn.sg/), or read more on how to use a local, offline copy:
+
 Download and unarchive the application from the [Releases](https://github.com/jglim/UnlockECU/releases/) page, then run the main application `VisualUnlockECU.exe`.
 
 Ensure that you have *.NET Desktop Runtime 5.0.0*. , available from [here](https://dotnet.microsoft.com/download/dotnet/5.0).
@@ -14,9 +16,7 @@ Ensure that you have *.NET Desktop Runtime 5.0.0*. , available from [here](https
 
 MIT
 
-Icon from [http://www.famfamfam.com/lab/icons/silk/](http://www.famfamfam.com/lab/icons/silk/)
-
-Excluding the icon, this application **does not include or require copyrighted or proprietary files**. Security functions and definitions have been reverse-engineered and reimplemented.
+This application **does not include or require copyrighted or proprietary files**. Security functions and definitions have been reverse-engineered and reimplemented.
 
 *When interacting with this repository (PR, issues, comments), please avoid including copyrighted/proprietary files, as they will be removed without notice.*
 
@@ -40,25 +40,26 @@ Here is an example of a definition:
 
 ```
 {
-    "EcuName": "ME97",
-    "AccessLevel": 5,
-    "SeedLength": 2,
-    "KeyLength": 2,
-    "Provider": "PowertrainBoschContiSecurityAlgo2",
-    "Origin": "ME97_ME97_13_10_01",
-    "Parameters": [
-      {
-        "Key": "Table",
-        "Value": "37C1A8179AE3745B",
-        "DataType": "ByteArray"
-      },
-      {
-        "Key": "uwMasc",
-        "Value": "4108",
-        "DataType": "ByteArray"
-      }
-    ]
-  }
+  "EcuName": "ME97",
+  "Aliases": [],
+  "AccessLevel": 1,
+  "SeedLength": 2,
+  "KeyLength": 2,
+  "Provider": "PowertrainBoschContiSecurityAlgo1",
+  "Origin": "ME97_ME97_13_10_01_J",
+  "Parameters": [
+    {
+      "Key": "ubTable",
+      "Value": "FCAD1E5941992FCD",
+      "DataType": "ByteArray"
+    },
+    {
+      "Key": "Mask",
+      "Value": "4300",
+      "DataType": "ByteArray"
+    }
+  ]
+}
 ```
 
 Currently, these security providers are available:
@@ -82,6 +83,8 @@ Currently, these security providers are available:
 - RDU222
 - RVC222_MPC222_FCW246_LRR3
 - SWSP177
+- VGSSecurityAlgo
+- VolkswagenSA2
 
 The definitions file `db.json` should be found alongside the application's main binary.
 

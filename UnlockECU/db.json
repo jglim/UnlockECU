@@ -8684,5 +8684,21 @@
         "DataType": "ByteArray"
       }
     ]
+  },
+  {
+    "EcuName": "VGSNAG2",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "VGSSecurityAlgo",
+    "Origin": "VGSNAG2_vgsnag2_sec_12_06_01",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1E71744E",
+        "DataType": "ByteArray"
+      }
+    ]
   }
 ]
