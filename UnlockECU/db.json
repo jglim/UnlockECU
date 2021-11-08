@@ -4243,6 +4243,26 @@
     ]
   },
   {
+    "EcuName": "IC172",
+    "Aliases": [],
+    "AccessLevel": 13,
+    "SeedLength": 8,
+    "KeyLength": 8,
+    "Provider": "IC172Algo1",
+    "Origin": "IC172_EXPERIMENTAL_@Feezex",
+    "Parameters": []
+  },
+  {
+    "EcuName": "IC172",
+    "Aliases": [],
+    "AccessLevel": 113,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "IC172Algo2",
+    "Origin": "IC172_EXPERIMENTAL_@Feezex",
+    "Parameters": []
+  },
+  {
     "EcuName": "IC177",
     "Aliases": [],
     "AccessLevel": 17,
