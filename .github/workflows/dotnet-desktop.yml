@@ -9,7 +9,6 @@ on:
 jobs:
 
   build:
-
     strategy:
       matrix:
         configuration: [Release]
@@ -47,9 +46,13 @@ jobs:
       env:
         Configuration: ${{ matrix.configuration }}
 
-    # Upload the MSIX package: https://github.com/marketplace/actions/upload-a-build-artifact
+    # Copy definitions (db.json) into build output
+    - name: Insert db.json into build
+      run: xcopy UnlockECU\db.json UnlockECU\VisualUnlockECU\bin\Release\net5.0-windows\
+
+    # Upload the completed build
     - name: Upload build artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: VisualUnlockECU
-        path: UnlockECU\VisualUnlockECU\bin\Release\net5.0-windows
+        name: VisualUnlockECU (Windows, ZIP)
+        path: UnlockECU/VisualUnlockECU/bin/Release/net5.0-windows
