@@ -41,7 +41,10 @@ namespace UnlockECU
                 intermediateKey[i] = ExpandByteArrayToNibbles(keyPool[i])[seedInput[transpositionTable[i]]];
             }
 
-            byte[] suffix = { 0x57, 0x49, 0x4C, 0x59 };
+            // The suffix does not have an impact on key generation and appears to be used as a means of personalization
+            // Suggestion from https://github.com/jglim/UnlockECU/issues/2#issuecomment-1028371756
+            byte[] suffix = { 0x55, 0x45, 0x43, 0x55 };
+
             byte[] assembledKey = CollapseByteArrayFromNibbles(intermediateKey);
             Array.ConstrainedCopy(assembledKey, 0, outKey, 0, 4);
             Array.ConstrainedCopy(suffix, 0, outKey, 4, 4);

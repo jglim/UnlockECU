@@ -2122,6 +2122,16 @@
     ]
   },
   {
+    "EcuName": "CRD3",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "PowertrainSecurityAlgo3",
+    "Origin": "CRD3_Aloulou-@WSorban",
+    "Parameters": []
+  },
+  {
     "EcuName": "CRD3S2SEC9A",
     "Aliases": [],
     "AccessLevel": 9,
