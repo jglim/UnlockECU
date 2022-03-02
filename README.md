@@ -1,14 +1,16 @@
 # UnlockECU
 
-![Header Image](https://raw.githubusercontent.com/jglim/UnlockECU/main/docs/resources/header.png)
+![Header Image](https://user-images.githubusercontent.com/1116555/156388388-4a81bb7d-4b7d-4424-9220-496147332cfa.png)
 
 Free, open-source ECU seed-key unlocking tool. 
 
 ## Getting started
 
-[Try it out here in your browser](https://unlockecu.sn.sg/), or read more on how to use a local, offline copy:
+[Try it out here in your browser instantly](https://unlockecu.sn.sg/), or download a local, offline copy:
 
-Download and unarchive the application from the [Releases](https://github.com/jglim/UnlockECU/releases/) page, then run the main application `VisualUnlockECU.exe`.
+**Latest Offline**: Select the most recent build from the [automated builds](https://github.com/jglim/UnlockECU/actions), then download the zip artifact.
+
+**Stable Offline**: Download and unarchive the application from the [Releases](https://github.com/jglim/UnlockECU/releases/) page, then run the main application `VisualUnlockECU.exe`.
 
 Ensure that you have *.NET Desktop Runtime 5.0.0*. , available from [here](https://dotnet.microsoft.com/download/dotnet/5.0).
 
@@ -28,9 +30,9 @@ This application **does not include or require copyrighted or proprietary files*
 
 ## Demo
 
-![https://raw.githubusercontent.com/jglim/UnlockECU/main/docs/resources/demo.mp4](https://raw.githubusercontent.com/jglim/UnlockECU/main/docs/resources/demo-thumb.png)
+https://user-images.githubusercontent.com/1116555/156387740-27e43a22-e892-4a3a-b024-f9a2f918a50d.mp4
 
-Edit: sorry, the thumbnail link does not work properly: please [click here instead](https://raw.githubusercontent.com/jglim/UnlockECU/main/docs/resources/demo.mp4).
+
 
 ## Adding definitions
 
