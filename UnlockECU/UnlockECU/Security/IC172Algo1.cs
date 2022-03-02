@@ -23,7 +23,7 @@ namespace UnlockECU
             byte[] seedInput = new byte[] { inSeed[0], inSeed[2], inSeed[4], inSeed[6] };
             seedInput = ExpandByteArrayToNibbles(seedInput);
 
-            List<byte[]> keyPool = new List<byte[]>();
+            List<byte[]> keyPool = new();
             keyPool.Add(new byte[] { 0xEF, 0xCD, 0xAB, 0x89, 0x67, 0x45, 0x23, 0x01 });
             keyPool.Add(new byte[] { 0x45, 0x67, 0x01, 0x23, 0xCD, 0xEF, 0x89, 0xAB });
             keyPool.Add(new byte[] { 0x01, 0x23, 0x45, 0x67, 0x89, 0xAB, 0xCD, 0xEF });
@@ -50,31 +50,6 @@ namespace UnlockECU
             Array.ConstrainedCopy(suffix, 0, outKey, 4, 4);
 
             return true;
-        }
-
-        byte[] ExpandByteArrayToNibbles(byte[] inputArray)
-        {
-            byte[] result = new byte[inputArray.Length * 2];
-            for (int i = 0; i < inputArray.Length; i++)
-            {
-                result[i * 2] = (byte)((inputArray[i] >> 4) & 0xF);
-                result[i * 2 + 1] = (byte)(inputArray[i] & 0xF);
-            }
-            return result;
-        }
-
-        byte[] CollapseByteArrayFromNibbles(byte[] inputArray)
-        {
-            if ((inputArray.Length % 2) != 0)
-            {
-                throw new Exception("Attempted to form a byte array from an odd-numbered set of nibbles.");
-            }
-            byte[] result = new byte[inputArray.Length / 2];
-            for (int i = 0; i < result.Length; i++)
-            {
-                result[i] = (byte)((inputArray[i * 2] << 4) | (inputArray[i * 2 + 1]));
-            }
-            return result;
         }
 
         public override string GetProviderName()

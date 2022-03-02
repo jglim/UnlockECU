@@ -62,7 +62,7 @@ namespace UnlockECU
             return true;
         }
 
-        private uint CreateDValue(int bit2Enabled, int bit1Enabled, int bit0Enabled, byte[][] matrix)
+        private static uint CreateDValue(int bit2Enabled, int bit1Enabled, int bit0Enabled, byte[][] matrix)
         {
             uint i = 0;
             byte j = 0;

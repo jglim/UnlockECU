@@ -21,7 +21,7 @@ namespace UnlockECU
             throw new Exception("GenerateKey was not overridden");
         }
 
-        public byte GetParameterByte(List<Parameter> parameters, string key)
+        public static byte GetParameterByte(List<Parameter> parameters, string key)
         {
             foreach (Parameter row in parameters)
             {
@@ -32,7 +32,7 @@ namespace UnlockECU
             }
             throw new Exception($"Failed to fetch byte parameter for key: {key}");
         }
-        public int GetParameterInteger(List<Parameter> parameters, string key)
+        public static int GetParameterInteger(List<Parameter> parameters, string key)
         {
             foreach (Parameter row in parameters)
             {
@@ -43,7 +43,7 @@ namespace UnlockECU
             }
             throw new Exception($"Failed to fetch Int32 parameter for key: {key}");
         }
-        public long GetParameterLong(List<Parameter> parameters, string key)
+        public static long GetParameterLong(List<Parameter> parameters, string key)
         {
             foreach (Parameter row in parameters)
             {
@@ -54,7 +54,7 @@ namespace UnlockECU
             }
             throw new Exception($"Failed to fetch Int64 parameter for key: {key}");
         }
-        public byte[] GetParameterBytearray(List<Parameter> parameters, string key)
+        public static byte[] GetParameterBytearray(List<Parameter> parameters, string key)
         {
             foreach (Parameter row in parameters)
             {
@@ -67,7 +67,7 @@ namespace UnlockECU
         }
 
         private static bool IsInitialized = false;
-        private static List<SecurityProvider> SecurityProviders = new List<SecurityProvider>();
+        private static List<SecurityProvider> SecurityProviders = new();
 
         public static List<SecurityProvider> GetSecurityProviders()
         {
@@ -94,7 +94,7 @@ namespace UnlockECU
             Little,
         }
 
-        public uint BytesToInt(byte[] inBytes, Endian endian, int offset = 0)
+        public static uint BytesToInt(byte[] inBytes, Endian endian, int offset = 0)
         {
             uint result = 0;
             if (endian == Endian.Big)
@@ -113,7 +113,7 @@ namespace UnlockECU
             }
             return result;
         }
-        public void IntToBytes(uint inInt, byte[] outBytes, Endian endian)
+        public static void IntToBytes(uint inInt, byte[] outBytes, Endian endian)
         {
             if (endian == Endian.Big)
             {
@@ -132,7 +132,7 @@ namespace UnlockECU
         }
 
         // WARNING: endian unaware:
-        public byte GetBit(byte inByte, int bitPosition)
+        public static byte GetBit(byte inByte, int bitPosition)
         {
             if (bitPosition > 7)
             {
@@ -141,7 +141,7 @@ namespace UnlockECU
             return (byte)((inByte >> bitPosition) & 1);
         }
 
-        public byte GetByte(uint inInt, int bytePosition)
+        public static byte GetByte(uint inInt, int bytePosition)
         {
             if (bytePosition > 3)
             {
@@ -150,7 +150,7 @@ namespace UnlockECU
             return (byte)(inInt >> (8 * bytePosition));
         }
 
-        public byte SetBit(byte inByte, int bitPosition)
+        public static byte SetBit(byte inByte, int bitPosition)
         {
             if (bitPosition > 7)
             {
@@ -159,7 +159,7 @@ namespace UnlockECU
             return inByte |= (byte)(1 << bitPosition);
         }
 
-        public uint SetByte(uint inInt, byte byteToSet, int bytePosition)
+        public static uint SetByte(uint inInt, byte byteToSet, int bytePosition)
         {
             if (bytePosition > 3)
             {
@@ -170,5 +170,33 @@ namespace UnlockECU
             inInt |= (uint)(byteToSet << bitPosition);
             return inInt;
         }
+
+        public static byte[] ExpandByteArrayToNibbles(byte[] inputArray)
+        {
+            // Primarily used for IC172
+            byte[] result = new byte[inputArray.Length * 2];
+            for (int i = 0; i < inputArray.Length; i++)
+            {
+                result[i * 2] = (byte)((inputArray[i] >> 4) & 0xF);
+                result[i * 2 + 1] = (byte)(inputArray[i] & 0xF);
+            }
+            return result;
+        }
+
+        public static byte[] CollapseByteArrayFromNibbles(byte[] inputArray)
+        {
+            // Primarily used for IC172
+            if ((inputArray.Length % 2) != 0)
+            {
+                throw new Exception("Attempted to form a byte array from an odd-numbered set of nibbles.");
+            }
+            byte[] result = new byte[inputArray.Length / 2];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = (byte)((inputArray[i * 2] << 4) | (inputArray[i * 2 + 1]));
+            }
+            return result;
+        }
+
     }
 }

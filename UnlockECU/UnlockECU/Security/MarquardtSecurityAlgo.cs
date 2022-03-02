@@ -24,7 +24,7 @@ namespace UnlockECU
                 return false;
             }
 
-            uint outKeyInt = 0;
+            uint outKeyInt;
             unchecked 
             {
                 outKeyInt = constC + inSeedAsInt * constA % constM;

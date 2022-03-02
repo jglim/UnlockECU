@@ -71,6 +71,8 @@ Currently, these security providers are available:
 - EDIFF290
 - EsLibEd25519
 - ESPSecurityAlgoLevel1
+- IC172Algo1
+- IC172Algo2
 - MarquardtSecurityAlgo
 - OCM172
 - PowertrainBoschContiSecurityAlgo1
@@ -78,6 +80,7 @@ Currently, these security providers are available:
 - PowertrainDelphiSecurityAlgo
 - PowertrainSecurityAlgo
 - PowertrainSecurityAlgo2
+- PowertrainSecurityAlgo3
 - PowertrainSecurityAlgoNFZ
 - RBTM
 - RDU222
@@ -85,6 +88,7 @@ Currently, these security providers are available:
 - SWSP177
 - VGSSecurityAlgo
 - VolkswagenSA2
+- XorAlgo
 
 The definitions file `db.json` should be found alongside the application's main binary.
 

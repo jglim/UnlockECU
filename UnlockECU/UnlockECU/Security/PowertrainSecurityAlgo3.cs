@@ -15,9 +15,9 @@ namespace UnlockECU
     /// </summary>
     class PowertrainSecurityAlgo3 : SecurityProvider
     {
-        private static uint FinalXorKey = 0x40088C88;
-        private static int[] SourceBitPositions = { 3, 7, 10, 11, 15, 19, 30 };
-        private static uint[] LookupTable =
+        private static readonly uint FinalXorKey = 0x40088C88;
+        private static readonly int[] SourceBitPositions = { 3, 7, 10, 11, 15, 19, 30 };
+        private static readonly uint[] LookupTable =
         {
             0x45D145D1, 0x406E47C6, 0x5450C446, 0x51EFC651, 0x47CE507A, 0x4271526D, 0x3121A3DA, 0x349EA1CD,
             0x0CECABBF, 0x0953A9A8, 0x105B10DF, 0x15E412C8, 0x3E1D91A6, 0x3BA293B1, 0xA316122F, 0xA6A91038,
@@ -59,7 +59,7 @@ namespace UnlockECU
             return true;
         }
 
-        public uint RemapBit(uint inValue, int sourceBitPosition, int destinationBitPosition) 
+        public static uint RemapBit(uint inValue, int sourceBitPosition, int destinationBitPosition) 
         {
             return (uint)((inValue & (1 << sourceBitPosition)) > 0 ? (1 << destinationBitPosition) : 0);
         }
