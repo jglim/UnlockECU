@@ -7436,6 +7436,22 @@
     ]
   },
   {
+    "EcuName": "ORC166",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "ORC166",
+    "Origin": "ORC166_19_34_01_20190420120_@Flo354",
+    "Parameters": [
+      {
+        "Key": "staticKey",
+        "Value": "AC05E2B8",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "ORC_172",
     "Aliases": [],
     "AccessLevel": 1,
