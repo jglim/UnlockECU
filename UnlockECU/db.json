@@ -5556,7 +5556,7 @@
   },
   {
     "EcuName": "MED40",
-    "Aliases": [],
+    "Aliases": ["MED41"],
     "AccessLevel": 5,
     "SeedLength": 4,
     "KeyLength": 4,
@@ -6066,7 +6066,7 @@
   },
   {
     "EcuName": "MED40ab",
-    "Aliases": [],
+    "Aliases": ["MED41"],
     "AccessLevel": 9,
     "SeedLength": 8,
     "KeyLength": 4,
@@ -6082,7 +6082,7 @@
   },
   {
     "EcuName": "MED419A",
-    "Aliases": [],
+    "Aliases": ["MED41"],
     "AccessLevel": 9,
     "SeedLength": 8,
     "KeyLength": 4,
