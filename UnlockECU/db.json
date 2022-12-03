@@ -4289,6 +4289,118 @@
     "Parameters": []
   },
   {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_0095_@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "541D378F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_0095_@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "35500E9F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_0095_@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "3DA7C96F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 7,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_0095_@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "71CFD8FF",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 9,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_0095_@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1AC9EA4F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 11,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_0095_@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "4884F65F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 13,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_0095_@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "2A58122F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "IC177",
     "Aliases": [],
     "AccessLevel": 17,
