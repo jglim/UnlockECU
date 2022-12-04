@@ -14,6 +14,7 @@ namespace UnlockECU
     {
         public override bool GenerateKey(byte[] inSeed, byte[] outKey, int accessLevel, List<Parameter> parameters)
         {
+            byte level = GetParameterByte(parameters, "Level");
             byte[] rootBytes = GetParameterBytearray(parameters, "K");
             uint rootRotated = BytesToInt(rootBytes, Endian.Big);
 
@@ -59,7 +60,7 @@ namespace UnlockECU
             outKey[4] = prefixBytes[2];
 
             // Originally documented as 'access level'
-            outKey[0] = 0x07;
+            outKey[0] = level;
 
             // VCI fingerprint
             outKey[5] = 0xFF;
