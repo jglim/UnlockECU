@@ -4337,7 +4337,742 @@
     "SeedLength": 8,
     "KeyLength": 7,
     "Provider": "KIAlgo1",
-    "Origin": "KI211_211_0095_L7_@VladLupashevskyi",
+    "Origin": "KI211_211_0003_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "189E370F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0006_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "163B6ACF",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_000A_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "2923C60F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0014_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "633CB43F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0022_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "3D55070F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0023_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "5EDEE43F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0031_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "4F98760D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0034_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "4F98760D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0035_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "4F98760D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_003A_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "4F98760D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_003C_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "4F98760D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0042_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "773E991A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0043_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "2432F83F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0044_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "1117849F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0056_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "3913B1FF",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0063_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "48A949DF",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0065_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "209731F9",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0066_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "209731F9",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0067_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "A09731F9",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0068_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "209731F9",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0069_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "A09731F9",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_006A_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "A9097BC5",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_006B_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "0C5762EA",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0072_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "50AB482F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0073_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "023EF31A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0074_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "284FEE13",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0075_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "00302CCE",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0076_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "347213FB",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0077_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "12788EEF",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0086_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "4A81C34F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0088_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "7664286F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0089_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "2F9C761F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_008A_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "724AD68F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0093_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "3BD1B8DF",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0094_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "70632F3F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_0095_L7_@VladLupashevskyi-@WSorban",
     "Parameters": [
       {
         "Key": "Level",
@@ -4358,7 +5093,7 @@
     "SeedLength": 8,
     "KeyLength": 7,
     "Provider": "KIAlgo1",
-    "Origin": "KI211_211_00A9_L7_@VladLupashevskyi",
+    "Origin": "KI211_211_00A9_L7_@VladLupashevskyi-@WSorban",
     "Parameters": [
       {
         "Key": "Level",
@@ -4368,6 +5103,111 @@
       {
         "Key": "K",
         "Value": "6A04B0BF",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_00AF_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "2241859F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_00B5_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "30AC27DF",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_00C3_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "58D3E43F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_00D3_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "2F89043F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI211",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 8,
+    "KeyLength": 7,
+    "Provider": "KIAlgo1",
+    "Origin": "KI211_211_00D4_L7_@VladLupashevskyi-@WSorban",
+    "Parameters": [
+      {
+        "Key": "Level",
+        "Value": "7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "K",
+        "Value": "75D77B2F",
         "DataType": "ByteArray"
       }
     ]
