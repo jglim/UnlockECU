@@ -108,7 +108,7 @@ namespace VisualUnlockECU
         public void TryRefreshKey()
         {
             bool validHex = true;
-            string cleanedText = txtSeedValue.Text.Replace(" ", "").Replace("\r", "").Replace("\n", "").Replace("\t", "").Replace("-", "").ToUpper();
+            string cleanedText = txtSeedValue.Text.Replace(" ","").Replace(" ", "").Replace("\r", "").Replace("\n", "").Replace("\t", "").Replace("-", "").ToUpper();
             if (cleanedText.Length % 2 != 0)
             {
                 validHex = false;
