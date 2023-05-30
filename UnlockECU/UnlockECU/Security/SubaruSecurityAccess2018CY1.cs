@@ -1,7 +1,11 @@
-﻿using System;
+﻿using Org.BouncyCastle.Crypto.Engines;
+using Org.BouncyCastle.Crypto.Modes;
+using Org.BouncyCastle.Crypto.Parameters;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
+
 
 namespace UnlockECU
 {
@@ -18,7 +22,7 @@ namespace UnlockECU
             {
                 return false;
             }
-
+            /*
             using (AesManaged aes = new AesManaged())
             {
                 aes.Mode = CipherMode.ECB;
@@ -30,6 +34,12 @@ namespace UnlockECU
                 ICryptoTransform encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
                 encryptor.TransformBlock(inSeed, 0, inSeed.Length, outKey, 0);
             }
+            */
+
+            var aes = new CbcBlockCipher(new AesEngine());
+            var aesParams = new ParametersWithIV(new KeyParameter(GetParameterBytearray(parameters, "K")), new byte[16]);
+            aes.Init(true, aesParams);
+            aes.ProcessBlock(inSeed, 0, outKey, 0);
 
             return true;
         }
