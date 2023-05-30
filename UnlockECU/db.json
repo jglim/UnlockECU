@@ -11250,5 +11250,1237 @@
         "DataType": "ByteArray"
       }
     ]
+  },
+  {
+    "EcuName": "Subaru_2EE2",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12002_API_2EE2_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "469A20AB308D5CA64BCD5BBE535BD85F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EE2",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12002_API_2EE2_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "E8CC52D5D8F20706424813126FA7ABDD",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EE2",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12002_API_2EE2_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "E40EAFE45074A0A0BE9917B0BF59F99B",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EE2",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12002_API_2EE2_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "9A711B32ACC0FF4089A72545416470C6",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EE6",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12002_API2_2EE6_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "469A20AB308D5CA64BCD5BBE535BD85F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EE6",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12002_API2_2EE6_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "E8CC52D5D8F20706424813126FA7ABDD",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EE6",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12002_API2_2EE6_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "E40EAFE45074A0A0BE9917B0BF59F99B",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EE6",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12002_API2_2EE6_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "9A711B32ACC0FF4089A72545416470C6",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EF6",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12022_API_2EF6_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "7D89DDE1C95A224ED723E04496F4C0AE",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EF6",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12022_API_2EF6_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "5C9F97ADE51DA6D0609D49BB05A417E9",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EF6",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12022_API_2EF6_CMD_SecurityAccess2018CY1_0251_193_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "66D5364A0D2D45C67E8DB120ED471438",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EF6",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12022_API_2EF6_CMD_SecurityAccess2018CY1_0251_194_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "37490E2C46C57F8CB22FEC48133965D6",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EFB",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12022_API2_2EFB_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "7D89DDE1C95A224ED723E04496F4C0AE",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EFB",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12022_API2_2EFB_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "5C9F97ADE51DA6D0609D49BB05A417E9",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EFB",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12022_API2_2EFB_CMD_SecurityAccess2018CY1_0251_193_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "66D5364A0D2D45C67E8DB120ED471438",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2EFB",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12022_API2_2EFB_CMD_SecurityAccess2018CY1_0251_194_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "37490E2C46C57F8CB22FEC48133965D6",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2F1B",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12059_API_2F1B_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "AEA6D9296786430A22A084EBA4498EE3",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2F1B",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12059_API_2F1B_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "0B4BB2772B2119F733FC8C3A7304F022",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2F1C",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12059_API1_2F1C_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "AEA6D9296786430A22A084EBA4498EE3",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2F1C",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12059_API1_2F1C_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "0B4BB2772B2119F733FC8C3A7304F022",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2F3B",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12091_API_2F3B_CMD_SecurityAccessAES_AB_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "92BF3DA9EADC2EB50E1A7BC13983899D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2F3B",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12091_API_2F3B_CMD_SecurityAccessAES_AB_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "AECD1B5CDDE980BFC6869AB2D3DAEA1A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2F41",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12091_API2_2F41_CMD_SecurityAccessAES_AB_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "92BF3DA9EADC2EB50E1A7BC13983899D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2F41",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12091_API2_2F41_CMD_SecurityAccessAES_AB_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "AECD1B5CDDE980BFC6869AB2D3DAEA1A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FA9",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12201_API_2FA9_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "00F17B760F53C30CBFFB54AD808F497A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FA9",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12201_API_2FA9_CMD_SecurityAccess2018CY1_0251_3_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "76E19EDB3027B6C51C8E90CED15E59BA",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FA9",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12201_API_2FA9_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "00F17B760F53C30CBFFB54AD808F497A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FA9",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12201_API_2FA9_CMD_SecurityAccess2018CY1_0251_3_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "76E19EDB3027B6C51C8E90CED15E59BA",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FAF",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12201_API2_2FAF_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "00F17B760F53C30CBFFB54AD808F497A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FAF",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12201_API2_2FAF_CMD_SecurityAccess2018CY1_0251_3_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "76E19EDB3027B6C51C8E90CED15E59BA",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FAF",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12201_API2_2FAF_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "00F17B760F53C30CBFFB54AD808F497A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FAF",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12201_API2_2FAF_CMD_SecurityAccess2018CY1_0251_3_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "76E19EDB3027B6C51C8E90CED15E59BA",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FC7",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12231_API_2FC7_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "8C15AC1E0EDFB84D8A1C1526CDFF0850",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FC7",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12231_API_2FC7_CMD_SecurityAccess2018CY1_0251_129_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1615239AB78925A41F18E6AA07673581",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FC9",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12231_API1_2FC9_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "8C15AC1E0EDFB84D8A1C1526CDFF0850",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FC9",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12231_API1_2FC9_CMD_SecurityAccess2018CY1_0251_129_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1615239AB78925A41F18E6AA07673581",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCA",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12234_API_2FCA_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "8C15AC1E0EDFB84D8A1C1526CDFF0850",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCA",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12234_API_2FCA_CMD_SecurityAccess2018CY1_0251_129_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1615239AB78925A41F18E6AA07673581",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCA",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12234_API_2FCA_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "0F84E1C95C8277A370E6CE71BFA6831D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCA",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12234_API_2FCA_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "9F18E548DCA83D6BAED30ECAAE2D0DDD",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCB",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12234_API2_2FCB_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "8C15AC1E0EDFB84D8A1C1526CDFF0850",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCB",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12234_API2_2FCB_CMD_SecurityAccess2018CY1_0251_129_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1615239AB78925A41F18E6AA07673581",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCB",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12234_API2_2FCB_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "0F84E1C95C8277A370E6CE71BFA6831D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCB",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12234_API2_2FCB_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "9F18E548DCA83D6BAED30ECAAE2D0DDD",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCC",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12236_API_2FCC_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "8C15AC1E0EDFB84D8A1C1526CDFF0850",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCC",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12236_API_2FCC_CMD_SecurityAccess2018CY1_0251_129_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1615239AB78925A41F18E6AA07673581",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCC",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12236_API_2FCC_CMD_SecurityAccess2018CY1_0251_130_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "6A673120695FD8431286925F8601F955",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCC",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12236_API_2FCC_CMD_SecurityAccess2018CY1_0251_130_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "8B1103CEFC35D915FDA0D869542854DC",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCD",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12236_API2_2FCD_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "8C15AC1E0EDFB84D8A1C1526CDFF0850",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCD",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12236_API2_2FCD_CMD_SecurityAccess2018CY1_0251_129_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1615239AB78925A41F18E6AA07673581",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCD",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12236_API2_2FCD_CMD_SecurityAccess2018CY1_0251_130_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "6A673120695FD8431286925F8601F955",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FCD",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12236_API2_2FCD_CMD_SecurityAccess2018CY1_0251_130_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "8B1103CEFC35D915FDA0D869542854DC",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FE9",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12265_API_2FE9_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1BF6344AA6256C70E45D8754CD653FB2",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FE9",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12265_API_2FE9_CMD_SecurityAccess2018CY1_0251_3_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "7692E7932F23A901568DDFA5FF580625",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FE9",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12265_API_2FE9_CMD_SecurityAccess2018CY1_0251_4_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1B8E5CE1CA38AEB6B4AC07C62FC8D769",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FEA",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12265_API2_2FEA_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1BF6344AA6256C70E45D8754CD653FB2",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FEA",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12265_API2_2FEA_CMD_SecurityAccess2018CY1_0251_3_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "7692E7932F23A901568DDFA5FF580625",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_2FEA",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12265_API2_2FEA_CMD_SecurityAccess2018CY1_0251_4_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "1B8E5CE1CA38AEB6B4AC07C62FC8D769",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3089",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12425_API_3089_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "33E63CA0431153460C18F1064C70FE41",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3089",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12425_API_3089_CMD_SecurityAccess2018CY1_0251_16_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "A808350D2BAF2084F0A5C10790A5D506",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3089",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12425_API_3089_CMD_SecurityAccess2018CY1_0251_32_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "295A6EBAEC78D774D8AAC1E0B3B5750C",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_308B",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12425_API2_308B_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "33E63CA0431153460C18F1064C70FE41",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_308B",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12425_API2_308B_CMD_SecurityAccess2018CY1_0251_16_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "A808350D2BAF2084F0A5C10790A5D506",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_308B",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12425_API2_308B_CMD_SecurityAccess2018CY1_0251_32_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "295A6EBAEC78D774D8AAC1E0B3B5750C",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_30F8",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12536_API_30F8_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "BCB8039CCDFCF5C82D4803E50F399F26",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_30F8",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12536_API_30F8_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "9978D5FA22B0C4E78B5D6451B2F7B7B5",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_30F9",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12536_API2_30F9_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "BCB8039CCDFCF5C82D4803E50F399F26",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_30F9",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12536_API2_30F9_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "9978D5FA22B0C4E78B5D6451B2F7B7B5",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_310B",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12555_API_310B_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "35371DE1F774FC0123A8AE67A725D1BB",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_310C",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12555_API1_310C_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "35371DE1F774FC0123A8AE67A725D1BB",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3129",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12585_API_3129_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "3C74A203B92DC74A0BC9D36489223F0A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_312A",
+    "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12585_API2_312A_CMD_SecurityAccess2018CY1_0251_2_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "3C74A203B92DC74A0BC9D36489223F0A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3151",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12625_API_3151_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "7168633A55270B3BA4E873BBBC248EC6",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3152",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12625_API2_3152_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "7168633A55270B3BA4E873BBBC248EC6",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3153",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12627_API_3153_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "18852C9509C8610F3E894CD8F23EB30D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3154",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12627_API2_3154_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "18852C9509C8610F3E894CD8F23EB30D",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "Subaru_3165",
+    "Aliases": [],
+    "AccessLevel": 0,
+    "SeedLength": 16,
+    "KeyLength": 16,
+    "Provider": "SubaruSecurityAccess2018CY1",
+    "Origin": "Subaru_12645_API2_3165_CMD_SecurityAccess2018CY1_0251_1_@jnewb1",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "0D816973C75E8B38B920061FCEDBCBAE",
+        "DataType": "ByteArray"
+      }
+    ]
   }
 ]
