@@ -7010,6 +7010,70 @@
     ]
   },
   {
+    "EcuName": "IC907",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgo",
+    "Origin": "IC907_16_08_01_12_47_00_20193211093220_Var8000_VarC700_VarC701_@Feezex",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "12345678",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "IC907",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgoRefG",
+    "Origin": "IC907_16_08_01_12_47_00_20193211093220_@Feezex",
+    "Parameters": [
+      {
+        "Key": "K_refG",
+        "Value": "2B972AC5",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "IC907",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgo",
+    "Origin": "IC907_17_50_01_20173913023951_Var4705_@Feezex",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "7C06B37E",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "IC907",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgo",
+    "Origin": "IC907_17_50_02_20174013024008_Var4905_@Feezex",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "A0595CC2",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "LeTubeSec",
     "Aliases": [],
     "AccessLevel": 9,
