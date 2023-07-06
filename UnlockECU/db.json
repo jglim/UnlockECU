@@ -7074,6 +7074,16 @@
     ]
   },
   {
+    "EcuName": "IC907",
+    "Aliases": [],
+    "AccessLevel": 61,
+    "SeedLength": 8,
+    "KeyLength": 8,
+    "Provider": "ArrayReverseAlgo",
+    "Origin": "IC907_Unknown_EXPERIMENTAL_@Feezex",
+    "Parameters": []
+  },
+  {
     "EcuName": "LeTubeSec",
     "Aliases": [],
     "AccessLevel": 9,
