@@ -11819,6 +11819,27 @@
       }
     ]
   },
+    {
+    "EcuName": "EGS53",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "VGSSecurityAlgoExt",
+    "Origin": "EGS53_27_05@VladLupashevskyi-@rnd-ash",
+    "Parameters": [
+      {
+        "Key": "X",
+        "Value": "6BB6B6B6",
+        "DataType": "ByteArray"
+      },
+	  {
+        "Key": "M",
+        "Value": "49949494",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
   {
     "EcuName": "Subaru_2EE2",
     "Aliases": [],
