@@ -11788,6 +11788,38 @@
     ]
   },
   {
+    "EcuName": "EGS52",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "VGSSecurityAlgo",
+    "Origin": "EGS52_27_05@VladLupashevskyi-@rnd-ash",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "5AA5A5A5",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "EGS52",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 2,
+    "KeyLength": 2,
+    "Provider": "VGSSecurityAlgo2Bytes",
+    "Origin": "EGS52_27_01_27_02@VladLupashevskyi-@rnd-ash",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "5AA5",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "Subaru_2EE2",
     "Aliases": [],
     "AccessLevel": 3,
