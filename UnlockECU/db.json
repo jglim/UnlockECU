@@ -4743,6 +4743,16 @@
   {
     "EcuName": "IC172",
     "Aliases": [],
+    "AccessLevel": 3,
+    "SeedLength": 8,
+    "KeyLength": 8,
+    "Provider": "IC172Algo1",
+    "Origin": "IC172_@Feezex-@Flo354",
+    "Parameters": []
+  },
+  {
+    "EcuName": "IC172",
+    "Aliases": [],
     "AccessLevel": 13,
     "SeedLength": 8,
     "KeyLength": 8,
