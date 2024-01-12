@@ -198,5 +198,48 @@ namespace UnlockECU
             return result;
         }
 
+        public static uint RotateLeft(uint val, int count)
+        {
+            uint mask = ~(uint.MaxValue >> 1);
+            for (int i = 0; i < count; i++)
+            {
+                bool bitSet = (val & mask) > 0;
+                val <<= 1;
+                if (bitSet)
+                {
+                    val |= 1;
+                }
+            }
+            return val;
+        }
+
+        public static uint RotateRight(uint val, int count)
+        {
+            uint mask = ~(uint.MaxValue >> 1);
+            for (int i = 0; i < count; i++)
+            {
+                bool bitSet = (val & 1) > 0;
+                val >>= 1;
+                if (bitSet)
+                {
+                    val |= mask;
+                }
+            }
+            return val;
+        }
+
+        public static int CountOnes(uint val)
+        {
+            int result = 0;
+            while (val > 0)
+            {
+                if ((val & 1) > 0)
+                {
+                    result++;
+                }
+                val >>= 1;
+            }
+            return result;
+        }
     }
 }

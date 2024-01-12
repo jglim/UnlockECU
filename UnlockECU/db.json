@@ -5275,6 +5275,54 @@
     ]
   },
   {
+    "EcuName": "KI203",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "KI203Algo1",
+    "Origin": "KI203_203_0223_L7_@Feezex-@rumator-@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "30BACD45",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI203",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "KI203Algo1",
+    "Origin": "KI203_203_0287_L7_@Feezex-@rumator-@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "27FC2D10",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "KI203",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "KI203Algo1",
+    "Origin": "KI203_203_0290_L7_@Feezex-@rumator-@VladLupashevskyi",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "4902EF27",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "KI211",
     "Aliases": [],
     "AccessLevel": 1,
