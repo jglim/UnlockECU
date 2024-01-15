@@ -10,7 +10,7 @@ namespace UnlockECU
     /// The root keys are often found in the firmware as a 7-element array of 32-bit integers, one for each level
     /// https://github.com/jglim/UnlockECU/issues/30#issuecomment-1881151971
     /// </summary>
-    class KI203Algo1 : SecurityProvider
+    class KI203Algo : SecurityProvider
     {
         public override bool GenerateKey(byte[] inSeed, byte[] outKey, int accessLevel, List<Parameter> parameters)
         {
@@ -72,9 +72,15 @@ namespace UnlockECU
         static uint ConvertCondensedKeyToOriginal(uint val)
         {
             // Shared by @Feezex in https://github.com/jglim/UnlockECU/issues/30#issuecomment-1881815230
-            // 203XXXXXXX_0223: 0x758A9A61 -> 30BACD45
-            // 203XXXXXXX_0287: 0xF8205A4F-> 27FC2D10
-            // 203XXXXXXX_0290: 0x054EDE92-> 4902EF27
+            // 203XXXXXXX_0223: 758A9A61 -> 30BACD45
+            // 203XXXXXXX_0287: F8205A4F -> 27FC2D10
+            // 203XXXXXXX_0290: 054EDE92 -> 4902EF27
+            // 203XXXXXXX_0247: 5B51DE37 -> BADEF289 (extends to ..024B)
+            // 203XXXXXXX_029F: 5F1D72EC -> 62FB90EF
+            // 203XXXXXXX_0253: EF2DA763 -> 3EFA72D6
+            // 203XXXXXXX_029D: FFFFFFFF -> FFFFFFFF
+            // 203XXXXXXX_029E: 8EB3DAC5 -> 163B6ACF
+
             uint prekey =
             (0xFF00_0000 & (val << 16)) |
             (0x00FF_0000 & (val)) |
@@ -85,7 +91,7 @@ namespace UnlockECU
 
         public override string GetProviderName()
         {
-            return "KI203Algo1";
+            return "KI203Algo";
         }
     }
 }
