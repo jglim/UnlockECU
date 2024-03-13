@@ -12422,7 +12422,7 @@
   {
     "EcuName": "VGS4NAG2",
     "Aliases": [],
-    "AccessLevel": 11,
+    "AccessLevel": 17,
     "SeedLength": 4,
     "KeyLength": 4,
     "Provider": "PowertrainSecurityAlgo",
@@ -12645,7 +12645,7 @@
       },
       {
         "Key": "X73",
-        "Value": "XE",
+        "Value": "E",
         "DataType": "Byte"
       }
     ]
