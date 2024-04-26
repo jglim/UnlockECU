@@ -1661,6 +1661,237 @@
     ]
   },
   {
+    "EcuName": "CR43",
+    "Aliases": [],
+    "AccessLevel": 11,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "PowertrainSecurityAlgo",
+    "Origin": "CR43_cr43_secBC_00_00_02_@Feezex",
+    "Parameters": [
+      {
+        "Key": "i1",
+        "Value": "1",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i2",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i3",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i4",
+        "Value": "1",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i5",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i6",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j1",
+        "Value": "5",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j2",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j3",
+        "Value": "7",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j4",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j5",
+        "Value": "7",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j6",
+        "Value": "5",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "X00",
+        "Value": "83",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X01",
+        "Value": "05",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X02",
+        "Value": "F3",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X03",
+        "Value": "99",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X10",
+        "Value": "B4",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X11",
+        "Value": "71",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X12",
+        "Value": "9C",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X13",
+        "Value": "80",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X20",
+        "Value": "3A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X21",
+        "Value": "FB",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X22",
+        "Value": "CA",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X23",
+        "Value": "48",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X30",
+        "Value": "31",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X31",
+        "Value": "09",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X32",
+        "Value": "CC",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X33",
+        "Value": "1F",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X40",
+        "Value": "AF",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X41",
+        "Value": "34",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X42",
+        "Value": "91",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X43",
+        "Value": "28",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X50",
+        "Value": "DE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X51",
+        "Value": "E1",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X52",
+        "Value": "70",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X53",
+        "Value": "39",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X60",
+        "Value": "40",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X61",
+        "Value": "9A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X62",
+        "Value": "F0",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X63",
+        "Value": "CF",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X70",
+        "Value": "F8",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X71",
+        "Value": "03",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X72",
+        "Value": "11",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X73",
+        "Value": "B1",
+        "DataType": "Byte"
+      }
+    ]
+  },
+  {
     "EcuName": "CR61_sec",
     "Aliases": [],
     "AccessLevel": 9,
