@@ -4908,6 +4908,38 @@
     "Parameters": []
   },
   {
+    "EcuName": "HU447",
+    "Aliases": [],
+    "AccessLevel": 11,
+    "SeedLength": 32,
+    "KeyLength": 64,
+    "Provider": "EsLibEd25519",
+    "Origin": "HU447_19_37_01_20192412032441-IronShaft_@samo733792",
+    "Parameters": [
+      {
+        "Key": "PrivateKey",
+        "Value": "AFBDD8C52304BA7291F2602E437C762979B00603E66EDFF8097830666A8D8B67",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "HU447",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 32,
+    "KeyLength": 64,
+    "Provider": "EsLibEd25519",
+    "Origin": "HU447_19_09_01_20191328031358-IronShaft_@samo733792",
+    "Parameters": [
+      {
+        "Key": "PrivateKey",
+        "Value": "DBA8F17C65BD45C14A4D400151235E4BB6C8963E93A977D26F64A3E10B3A8A91",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "HU7",
     "Aliases": [],
     "AccessLevel": 51,
