@@ -8566,6 +8566,468 @@
     ]
   },
   {
+    "EcuName": "MED177",
+    "Aliases": [],
+    "AccessLevel": 11,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "PowertrainSecurityAlgo",
+    "Origin": "MED177_12_37_00_20191221031207_@Flo354",
+    "Parameters": [
+      {
+        "Key": "i1",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i2",
+        "Value": "0",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i3",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i4",
+        "Value": "1",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i5",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i6",
+        "Value": "1",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j1",
+        "Value": "7",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j2",
+        "Value": "0",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j3",
+        "Value": "5",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j4",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j5",
+        "Value": "7",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j6",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "X00",
+        "Value": "72",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X01",
+        "Value": "AE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X02",
+        "Value": "88",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X03",
+        "Value": "AE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X10",
+        "Value": "AA",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X11",
+        "Value": "E2",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X12",
+        "Value": "22",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X13",
+        "Value": "BC",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X20",
+        "Value": "98",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X21",
+        "Value": "5A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X22",
+        "Value": "EB",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X23",
+        "Value": "61",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X30",
+        "Value": "1E",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X31",
+        "Value": "7A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X32",
+        "Value": "01",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X33",
+        "Value": "09",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X40",
+        "Value": "52",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X41",
+        "Value": "6A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X42",
+        "Value": "AC",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X43",
+        "Value": "16",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X50",
+        "Value": "81",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X51",
+        "Value": "AE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X52",
+        "Value": "35",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X53",
+        "Value": "4A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X60",
+        "Value": "EA",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X61",
+        "Value": "46",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X62",
+        "Value": "4E",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X63",
+        "Value": "AE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X70",
+        "Value": "40",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X71",
+        "Value": "EE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X72",
+        "Value": "31",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X73",
+        "Value": "4E",
+        "DataType": "Byte"
+      }
+    ]
+  },
+  {
+    "EcuName": "MED177V6LA",
+    "Aliases": [],
+    "AccessLevel": 11,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "PowertrainSecurityAlgo",
+    "Origin": "MED177_12_37_00_20191221031207_@Flo354",
+    "Parameters": [
+      {
+        "Key": "i1",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i2",
+        "Value": "0",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i3",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i4",
+        "Value": "1",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i5",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i6",
+        "Value": "1",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j1",
+        "Value": "7",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j2",
+        "Value": "0",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j3",
+        "Value": "5",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j4",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j5",
+        "Value": "7",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j6",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "X00",
+        "Value": "72",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X01",
+        "Value": "AE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X02",
+        "Value": "88",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X03",
+        "Value": "AE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X10",
+        "Value": "AA",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X11",
+        "Value": "E2",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X12",
+        "Value": "22",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X13",
+        "Value": "BC",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X20",
+        "Value": "98",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X21",
+        "Value": "5A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X22",
+        "Value": "EB",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X23",
+        "Value": "61",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X30",
+        "Value": "1E",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X31",
+        "Value": "7A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X32",
+        "Value": "01",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X33",
+        "Value": "09",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X40",
+        "Value": "52",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X41",
+        "Value": "6A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X42",
+        "Value": "AC",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X43",
+        "Value": "16",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X50",
+        "Value": "81",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X51",
+        "Value": "AE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X52",
+        "Value": "35",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X53",
+        "Value": "4A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X60",
+        "Value": "EA",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X61",
+        "Value": "46",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X62",
+        "Value": "4E",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X63",
+        "Value": "AE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X70",
+        "Value": "40",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X71",
+        "Value": "EE",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X72",
+        "Value": "31",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X73",
+        "Value": "4E",
+        "DataType": "Byte"
+      }
+    ]
+  },
+  {
     "EcuName": "MED1775",
     "Aliases": [],
     "AccessLevel": 11,
