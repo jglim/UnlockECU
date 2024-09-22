@@ -10040,6 +10040,468 @@
     ]
   },
   {
+    "EcuName": "MRD1",
+    "Aliases": [],
+    "AccessLevel": 11,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "PowertrainSecurityAlgo",
+    "Origin": "MRD1_MRD1_13_35_02_@Feezex",
+    "Parameters": [
+      {
+        "Key": "i1",
+        "Value": "0",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i2",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i3",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i4",
+        "Value": "1",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i5",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i6",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j1",
+        "Value": "7",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j2",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j3",
+        "Value": "5",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j4",
+        "Value": "6",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j5",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j6",
+        "Value": "6",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "X00",
+        "Value": "A9",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X01",
+        "Value": "5D",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X02",
+        "Value": "A3",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X03",
+        "Value": "97",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X10",
+        "Value": "C8",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X11",
+        "Value": "21",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X12",
+        "Value": "78",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X13",
+        "Value": "76",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X20",
+        "Value": "2C",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X21",
+        "Value": "B7",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X22",
+        "Value": "6A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X23",
+        "Value": "BA",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X30",
+        "Value": "3E",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X31",
+        "Value": "92",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X32",
+        "Value": "82",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X33",
+        "Value": "F9",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X40",
+        "Value": "D2",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X41",
+        "Value": "6B",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X42",
+        "Value": "66",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X43",
+        "Value": "31",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X50",
+        "Value": "32",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X51",
+        "Value": "54",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X52",
+        "Value": "F6",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X53",
+        "Value": "FC",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X60",
+        "Value": "5C",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X61",
+        "Value": "D2",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X62",
+        "Value": "0D",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X63",
+        "Value": "83",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X70",
+        "Value": "A4",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X71",
+        "Value": "61",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X72",
+        "Value": "CD",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X73",
+        "Value": "25",
+        "DataType": "Byte"
+      }
+    ]
+  },
+  {
+    "EcuName": "MRD1",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 4,
+    "KeyLength": 4,
+    "Provider": "PowertrainSecurityAlgo",
+    "Origin": "MRD1_MRD1_13_35_02_@Feezex",
+    "Parameters": [
+      {
+        "Key": "i1",
+        "Value": "1",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i2",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i3",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i4",
+        "Value": "2",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i5",
+        "Value": "0",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "i6",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j1",
+        "Value": "0",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j2",
+        "Value": "4",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j3",
+        "Value": "5",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j4",
+        "Value": "3",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j5",
+        "Value": "7",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "j6",
+        "Value": "6",
+        "DataType": "Int32"
+      },
+      {
+        "Key": "X00",
+        "Value": "5C",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X01",
+        "Value": "19",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X02",
+        "Value": "39",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X03",
+        "Value": "7F",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X10",
+        "Value": "9B",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X11",
+        "Value": "73",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X12",
+        "Value": "B0",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X13",
+        "Value": "67",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X20",
+        "Value": "08",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X21",
+        "Value": "36",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X22",
+        "Value": "26",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X23",
+        "Value": "28",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X30",
+        "Value": "3A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X31",
+        "Value": "E6",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X32",
+        "Value": "B8",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X33",
+        "Value": "9A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X40",
+        "Value": "65",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X41",
+        "Value": "D1",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X42",
+        "Value": "1B",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X43",
+        "Value": "18",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X50",
+        "Value": "4F",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X51",
+        "Value": "6A",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X52",
+        "Value": "D0",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X53",
+        "Value": "B1",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X60",
+        "Value": "26",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X61",
+        "Value": "35",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X62",
+        "Value": "C0",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X63",
+        "Value": "3B",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X70",
+        "Value": "44",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X71",
+        "Value": "24",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X72",
+        "Value": "71",
+        "DataType": "Byte"
+      },
+      {
+        "Key": "X73",
+        "Value": "1F",
+        "DataType": "Byte"
+      }
+    ]
+  },
+  {
     "EcuName": "MRD2",
     "Aliases": [],
     "AccessLevel": 17,
