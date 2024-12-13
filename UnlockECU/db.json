@@ -4882,6 +4882,38 @@
     ]
   },
   {
+    "EcuName": "FSCM_GEN5",
+    "Aliases": [],
+    "AccessLevel": 11,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgoRefG",
+    "Origin": "FSCM_GEN5_0_@Feezex",
+    "Parameters": [
+      {
+        "Key": "K_refG",
+        "Value": "9057B71A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "FSCM_GEN5",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgoRefG",
+    "Origin": "FSCM_GEN5_0_@Feezex",
+    "Parameters": [
+      {
+        "Key": "K_refG",
+        "Value": "8B014327",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "HAL290",
     "Aliases": [],
     "AccessLevel": 1,
