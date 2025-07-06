@@ -4283,6 +4283,22 @@
     ]
   },
   {
+    "EcuName": "ESP9_212",
+    "Aliases": [],
+    "AccessLevel": 5,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgo",
+    "Origin": "ESP9_212_DJ_SCN_Entriegeln",
+    "Parameters": [
+      {
+        "Key": "K",
+        "Value": "D45D233F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "ESPC_167_01_37_3D",
     "Aliases": [],
     "AccessLevel": 55,
