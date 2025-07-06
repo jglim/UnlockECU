@@ -4270,6 +4270,19 @@
     ]
   },
   {
+    "EcuName": "ESP9_212_EXPERIMENTAL",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 2,
+    "KeyLength": 2,
+    "Provider": "ESP9212Algo1",
+    "Origin": "ESP9_212_DJ_DJ_Entriegeln",
+    "Parameters": [
+      {
+      }
+    ]
+  },
+  {
     "EcuName": "ESPC_167_01_37_3D",
     "Aliases": [],
     "AccessLevel": 55,
