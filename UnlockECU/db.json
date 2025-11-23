@@ -4576,6 +4576,38 @@
     ]
   },
   {
+    "EcuName": "EZS167",
+    "Aliases": [],
+    "AccessLevel": 57,
+    "SeedLength": 32,
+    "KeyLength": 64,
+    "Provider": "EsLibEd25519",
+    "Origin": "EZS167_20_42_57_20200617030631_@RichardWGNR",
+    "Parameters": [
+      {
+        "Key": "PrivateKey",
+        "Value": "E8D05A7F55C12BCC9FA323CD8548BBAEF8916A14535AA9CE9669815C9FE27007",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "EZS167",
+    "Aliases": [],
+    "AccessLevel": 59,
+    "SeedLength": 32,
+    "KeyLength": 64,
+    "Provider": "EsLibEd25519",
+    "Origin": "EZS167_20_42_59_20200717030759_@RichardWGNR",
+    "Parameters": [
+      {
+        "Key": "PrivateKey",
+        "Value": "E45E3A83DFCF21B1899D5DC7A13C3691747E74120F16C8D00183303E40822A62",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "EZS213",
     "Aliases": [],
     "AccessLevel": 55,
