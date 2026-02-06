@@ -396,6 +396,86 @@
     ]
   },
   {
+    "EcuName": "CCGW420",
+    "Aliases": [],
+    "AccessLevel": 11,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgoRefG",
+    "Origin": "CCGW420_20_17_61_20203124093101",
+    "Parameters": [
+      {
+        "Key": "K_refG",
+        "Value": "C21BEF94",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "CCGW420",
+    "Aliases": [],
+    "AccessLevel": 17,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgoRefG",
+    "Origin": "CCGW420_20_17_61_20203124093101",
+    "Parameters": [
+      {
+        "Key": "K_refG",
+        "Value": "CEF734C3",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "CCGW420",
+    "Aliases": [],
+    "AccessLevel": 57,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgoRefG",
+    "Origin": "CCGW420_20_17_61_20203124093101",
+    "Parameters": [
+      {
+        "Key": "K_refG",
+        "Value": "7E05F957",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "CCGW420",
+    "Aliases": [],
+    "AccessLevel": 59,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgoRefG",
+    "Origin": "CCGW420_20_17_61_20203124093101",
+    "Parameters": [
+      {
+        "Key": "K_refG",
+        "Value": "C4BDE9CB",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "CCGW420",
+    "Aliases": [],
+    "AccessLevel": 97,
+    "SeedLength": 8,
+    "KeyLength": 4,
+    "Provider": "DaimlerStandardSecurityAlgoRefG",
+    "Origin": "CCGW420_20_17_61_20203124093101",
+    "Parameters": [
+      {
+        "Key": "K_refG",
+        "Value": "961FAF93",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "CEPC",
     "Aliases": [],
     "AccessLevel": 9,
