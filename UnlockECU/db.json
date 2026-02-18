@@ -476,6 +476,38 @@
     ]
   },
   {
+    "EcuName": "CCGW420",
+    "Aliases": [],
+    "AccessLevel": 57,
+    "SeedLength": 32,
+    "KeyLength": 64,
+    "Provider": "EsLibEd25519",
+    "Origin": "CCGW420_20_17_62_20200212110244",
+    "Parameters": [
+      {
+        "Key": "PrivateKey",
+        "Value": "BBF822045CD5A91DBD4A13FCAC576EBCB45C0CBD35AA2602051E8D70EB5D6468",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "CCGW420",
+    "Aliases": [],
+    "AccessLevel": 59,
+    "SeedLength": 32,
+    "KeyLength": 64,
+    "Provider": "EsLibEd25519",
+    "Origin": "CCGW420_20_17_62_20200212110244",
+    "Parameters": [
+      {
+        "Key": "PrivateKey",
+        "Value": "AF562D086547FC7097825AA02C3EFF4ADA1B0A232F481210D11FFF3D4839315F",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "CEPC",
     "Aliases": [],
     "AccessLevel": 9,
