@@ -2584,6 +2584,16 @@
     ]
   },
   {
+    "EcuName": "Renault_Radio_Code",
+    "Aliases": [],
+    "AccessLevel": 1,
+    "SeedLength": 4,
+    "KeyLength": 2,
+    "Provider": "RenaultRadio",
+    "Origin": "RenaultRadioCode_@Feezex",
+    "Parameters": []
+  },
+  {
     "EcuName": "EARS167",
     "Aliases": [],
     "AccessLevel": 11,
