@@ -68390,6 +68390,70 @@
     ]
   },
   {
+    "EcuName": "IC204_2049027003",
+    "Aliases": [],
+    "AccessLevel": 9,
+    "SeedLength": 8,
+    "KeyLength": 8,
+    "Provider": "IC204",
+    "Origin": "ic204_fw_2049027003",
+    "Parameters": [
+      {
+        "Key": "Salt",
+        "Value": "E1C937B1F12B7168",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "IC204_2049027003",
+    "Aliases": [],
+    "AccessLevel": 13,
+    "SeedLength": 8,
+    "KeyLength": 8,
+    "Provider": "IC204",
+    "Origin": "ic204_fw_2049027003",
+    "Parameters": [
+      {
+        "Key": "Salt",
+        "Value": "C11583E4DCA97474",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "IC204_2049027500",
+    "Aliases": [],
+    "AccessLevel": 9,
+    "SeedLength": 8,
+    "KeyLength": 8,
+    "Provider": "IC204",
+    "Origin": "ic204_fw_2049027500",
+    "Parameters": [
+      {
+        "Key": "Salt",
+        "Value": "D6534484E5B57E3A",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
+    "EcuName": "IC204_2049027500",
+    "Aliases": [],
+    "AccessLevel": 13,
+    "SeedLength": 8,
+    "KeyLength": 8,
+    "Provider": "IC204",
+    "Origin": "ic204_fw_2049027500",
+    "Parameters": [
+      {
+        "Key": "Salt",
+        "Value": "75E22F2ED1338147",
+        "DataType": "ByteArray"
+      }
+    ]
+  },
+  {
     "EcuName": "IC204_2049028802",
     "Aliases": [],
     "AccessLevel": 1,
