@@ -14,7 +14,13 @@ namespace UnlockECU
             byte[] cryptoKeyBytes = GetParameterBytearray(parameters, "staticKey");
             uint cryptoKey = BytesToInt(cryptoKeyBytes, Endian.Big);
 
-            if ((inSeed.Length != 8) || (outKey.Length != 4))
+            if (outKey.Length != 4)
+            {
+                return false;
+            }
+            // Seed can be either 4 or 8 bytes. Only first 4 bytes are used
+            // https://github.com/jglim/UnlockECU/issues/32
+            if (!((inSeed.Length == 4) || (inSeed.Length == 8)))
             {
                 return false;
             }

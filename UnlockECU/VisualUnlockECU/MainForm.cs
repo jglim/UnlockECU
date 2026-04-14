@@ -172,5 +172,17 @@ namespace VisualUnlockECU
             }
         }
 
+        private void btnPasteSeed_Click(object sender, EventArgs e)
+        {
+            if (Clipboard.ContainsText())
+            {
+                txtSeedValue.Text = Clipboard.GetText();
+            }
+        }
+
+        private void btnCopyKey_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(txtKeyValue.Text);
+        }
     }
 }
