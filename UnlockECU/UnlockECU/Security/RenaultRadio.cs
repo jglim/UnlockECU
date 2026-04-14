@@ -55,8 +55,10 @@ namespace UnlockECU
             if (outKey.Length < 2)
                 return false;
 
-            outKey[0] = (byte)((eax >> 8) & 0xFF);
-            outKey[1] = (byte)(eax & 0xFF);
+            string s = eax.ToString("D4"); // 
+
+            outKey[0] = (byte)(((s[0] - '0') << 4) | (s[1] - '0'));
+            outKey[1] = (byte)(((s[2] - '0') << 4) | (s[3] - '0'));
 
             return true;
         }
