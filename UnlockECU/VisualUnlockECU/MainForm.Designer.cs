@@ -34,6 +34,8 @@ namespace VisualUnlockECU
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtFilter = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnCopyKey = new System.Windows.Forms.Button();
+            this.btnPasteSeed = new System.Windows.Forms.Button();
             this.txtKeyValue = new System.Windows.Forms.TextBox();
             this.txtSeedValue = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).BeginInit();
@@ -87,6 +89,8 @@ namespace VisualUnlockECU
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.btnCopyKey);
+            this.groupBox2.Controls.Add(this.btnPasteSeed);
             this.groupBox2.Controls.Add(this.txtKeyValue);
             this.groupBox2.Controls.Add(this.txtSeedValue);
             this.groupBox2.Location = new System.Drawing.Point(12, 484);
@@ -96,6 +100,28 @@ namespace VisualUnlockECU
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Key Generation";
             // 
+            // btnCopyKey
+            // 
+            this.btnCopyKey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCopyKey.Location = new System.Drawing.Point(1037, 48);
+            this.btnCopyKey.Name = "btnCopyKey";
+            this.btnCopyKey.Size = new System.Drawing.Size(75, 23);
+            this.btnCopyKey.TabIndex = 3;
+            this.btnCopyKey.Text = "Copy Key";
+            this.btnCopyKey.UseVisualStyleBackColor = true;
+            this.btnCopyKey.Click += new System.EventHandler(this.btnCopyKey_Click);
+            // 
+            // btnPasteSeed
+            // 
+            this.btnPasteSeed.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPasteSeed.Location = new System.Drawing.Point(1037, 22);
+            this.btnPasteSeed.Name = "btnPasteSeed";
+            this.btnPasteSeed.Size = new System.Drawing.Size(75, 23);
+            this.btnPasteSeed.TabIndex = 2;
+            this.btnPasteSeed.Text = "Paste Seed";
+            this.btnPasteSeed.UseVisualStyleBackColor = true;
+            this.btnPasteSeed.Click += new System.EventHandler(this.btnPasteSeed_Click);
+            // 
             // txtKeyValue
             // 
             this.txtKeyValue.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -104,7 +130,7 @@ namespace VisualUnlockECU
             this.txtKeyValue.Name = "txtKeyValue";
             this.txtKeyValue.PlaceholderText = "Output seed value (read-only)";
             this.txtKeyValue.ReadOnly = true;
-            this.txtKeyValue.Size = new System.Drawing.Size(1106, 23);
+            this.txtKeyValue.Size = new System.Drawing.Size(1025, 23);
             this.txtKeyValue.TabIndex = 1;
             this.txtKeyValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -115,7 +141,7 @@ namespace VisualUnlockECU
             this.txtSeedValue.Location = new System.Drawing.Point(6, 22);
             this.txtSeedValue.Name = "txtSeedValue";
             this.txtSeedValue.PlaceholderText = "Enter seed value in hex (e.g. 00 11 22 33)";
-            this.txtSeedValue.Size = new System.Drawing.Size(1106, 23);
+            this.txtSeedValue.Size = new System.Drawing.Size(1025, 23);
             this.txtSeedValue.TabIndex = 0;
             this.txtSeedValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSeedValue.TextChanged += new System.EventHandler(this.txtSeedValue_TextChanged);
@@ -149,6 +175,8 @@ namespace VisualUnlockECU
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txtKeyValue;
         private System.Windows.Forms.TextBox txtSeedValue;
+        private System.Windows.Forms.Button btnCopyKey;
+        private System.Windows.Forms.Button btnPasteSeed;
     }
 }
 

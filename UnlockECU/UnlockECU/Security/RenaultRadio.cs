@@ -60,6 +60,7 @@ namespace UnlockECU
             outKey[0] = (byte)(((s[0] - '0') << 4) | (s[1] - '0'));
             outKey[1] = (byte)(((s[2] - '0') << 4) | (s[3] - '0'));
 
+
             return true;
         }
 
