@@ -107,31 +107,51 @@ namespace VisualUnlockECU
 
         public void TryRefreshKey()
         {
-            bool validHex = true;
-            string cleanedText = txtSeedValue.Text.Replace(",", "").Replace(" ", "").Replace("\r", "").Replace("\n", "").Replace("\t", "").Replace("-", "").ToUpper();
-            if (cleanedText.Length % 2 != 0)
+            if (dgvMain.SelectedRows.Count != 1)
+                return;
+
+            int selectedIndex = int.Parse(dgvMain.SelectedRows[0].Cells[0].Value.ToString());
+            Definition definition = Definitions[selectedIndex];
+
+            string input = txtSeedValue.Text
+                .Replace(" ", "")
+                .Replace("\r", "")
+                .Replace("\n", "")
+                .Replace("\t", "")
+                .Replace("-", "")
+                .ToUpper();
+
+            if (string.IsNullOrEmpty(input))
             {
-                validHex = false;
-            }
-            if (!System.Text.RegularExpressions.Regex.IsMatch(cleanedText, @"\A\b[0-9a-fA-F]+\b\Z"))
-            {
-                validHex = false;
+                TryGenerateKey(Array.Empty<byte>());
+                return;
             }
 
-            if (validHex)
+            byte[] seed;
+
+            if (definition.InputType == "ASCII")
             {
-                byte[] seed = BitUtility.BytesFromHex(cleanedText);
+                // 🔥 ASCII mode
+                seed = Encoding.ASCII.GetBytes(input);
                 txtSeedValue.BackColor = System.Drawing.SystemColors.Window;
-                TryGenerateKey(seed);
             }
             else
             {
-                if (cleanedText.Length == 0)
+                // 🔒 HEX mode
+                bool isHex = input.Length % 2 == 0 &&
+                             System.Text.RegularExpressions.Regex.IsMatch(input, @"\A[0-9A-F]+\Z");
+
+                if (!isHex)
                 {
-                    TryGenerateKey(new byte[] { });
+                    txtSeedValue.BackColor = System.Drawing.Color.LavenderBlush;
+                    return;
                 }
-                txtSeedValue.BackColor = System.Drawing.Color.LavenderBlush;
+
+                seed = BitUtility.BytesFromHex(input);
+                txtSeedValue.BackColor = System.Drawing.SystemColors.Window;
             }
+
+            TryGenerateKey(seed);
         }
 
         public void TryGenerateKey(byte[] inByte) 
@@ -144,7 +164,7 @@ namespace VisualUnlockECU
             int selectedIndex = int.Parse(dgvMain.SelectedRows[0].Cells[0].Value.ToString());
             Definition definition = Definitions[selectedIndex];
 
-            groupBox2.Text = $"Key Generation ({definition})";
+            groupBox2.Text = $"Key Generation ({definition}) [{definition.InputType}]";
 
             if (definition.SeedLength != inByte.Length)
             {
