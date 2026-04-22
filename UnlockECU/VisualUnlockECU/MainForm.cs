@@ -114,6 +114,7 @@ namespace VisualUnlockECU
             Definition definition = Definitions[selectedIndex];
 
             string input = txtSeedValue.Text
+                .Replace(",", "")
                 .Replace(" ", "")
                 .Replace("\r", "")
                 .Replace("\n", "")
